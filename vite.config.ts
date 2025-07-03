@@ -7,6 +7,9 @@ export default defineConfig({
   plugins: [react(), tailwindcss()],
   server: {
     host: true,                // Listen on all network interfaces
-    port: Number(process.env.PORT) || 5173,  // Use Render's port or default 5173
+    port: Number(process.env.PORT) || 5173, 
+    allowedHosts: 'all',  
+
+    // Use Render's port or default 5173
   },
 })
