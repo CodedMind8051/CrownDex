@@ -13,7 +13,7 @@ export default defineConfig({
       usePolling: true,                     // for file watching reliability
     },
     hmr: {
-      host: 'crowndex-2.onrender.com',     // your Render domain for hot reload
+      host: 'crowndex.onrender.com',     // your Render domain for hot reload
     },
     fs: {
       strict: false,                        // allow serving files outside root (optional)
