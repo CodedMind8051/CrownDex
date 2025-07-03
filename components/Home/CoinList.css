@@ -1,0 +1,43 @@
+.coin-list {
+  margin-top: 20px;
+  overflow-y: scroll;
+  margin-bottom: 50px;
+}
+.coin {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px;
+  background-color: #1a1a1a;
+  margin-bottom: 8px;
+  border-radius: 10px;
+}
+.coin-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.coin-icon {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #fff;
+}
+.coin-name {
+  font-weight: bold;
+}
+.coin-price {
+  color: #ccc;
+}
+.coin-change.positive {
+  color: white;
+  background-color: #27a774;
+    border-radius: 5px;
+  padding: 2px 5px;
+}
+.coin-change.negative {
+  background-color: #ff5252;
+  color: white;
+  border-radius: 5px;
+  padding: 2px 5px;
+}

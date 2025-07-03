@@ -1,0 +1,11 @@
+.actions button {
+  margin: 5px;
+  padding: 10px;
+  background-color: #1a1a1a;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.actions .add-deposit {
+  margin-top: 10px;
+}
